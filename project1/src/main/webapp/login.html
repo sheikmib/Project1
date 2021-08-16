@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+</head>
+<style>
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box div {
+  width: 100px;
+  height: 100px;
+}
+</style>
+<body class="container"style="background-color:powderblue">
+    <hr/>
+    <div class="box">Transaction App</div>
+    <hr/>
+
+    <nav class="nav">
+	  <a class="nav-link" href="txr">Transfer</a>
+	  <a class="nav-link" href="statement">Statement</a>
+	  <a class="nav-link" href="login.html">Login</a>
+	</nav>
+
+    <hr/>
+     <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+      <form action="login" method="POST" >
+        <div class="card" style="background-color:skyblue">
+          <div class="card-header">Login Form</div>
+          <div class="card-body">
+            <div class="form-group">
+              <label>UserName</label>
+              <input style="background-color:dodgerblue"  class="form-control" name="username" />
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input style="background-color:dodgerblue"  class="form-control" name="password" type="password" />
+            </div>
+          <div class="card-footer">
+            <button class="btn btn-dark">Login</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+    
+
+</body>
+</html>
