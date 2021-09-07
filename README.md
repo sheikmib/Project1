@@ -17,7 +17,7 @@
 - Get transaction by filter constraints (Top 10, Last 3 month Transaction, Between from and to dates)
 - Custom Exception and unit testing.
 
-#Roles and Responsibilities
+# Roles and Responsibilities
 - Developed a servlet-based web application for the  Transfering the amount between two account.
 - Used design patterns  for the best practices and for better performance 
 - Used the oops concepts to give compact structure in application.
